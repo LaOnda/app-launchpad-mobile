@@ -4,7 +4,7 @@ angular.module('lpApp')
     .factory('df',[ function() {
 
         //replace this dsp_url with yours ( leave the /rest/api_docs part )
-        var dsp_url = "http://localhost/rest/api_docs";
+        var dsp_url = "http://localhost/rest/api_docs/user";
         //replace this app_name with yours
         var app_name = "launchpad";
        // var resource = "/user";
